@@ -52,8 +52,8 @@ function App() {
     );
   };
 
-  // Function to filter videos based on bookmarked status
-  const filteredVideos = showBookmarked ? videos.filter(video => video.bookmarked) : videos;
+  // // Function to filter videos based on bookmarked status
+  // const filteredVideos = showBookmarked ? videos.filter(video => video.bookmarked) : videos;
 
   // Function to handle showing bookmarked videos separately
   const handleShowBookmarkedVideos = () => {
